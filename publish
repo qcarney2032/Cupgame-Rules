@@ -1,0 +1,3 @@
+latexmk -pdf Cupgame\ Rules.tex
+scp ./Cupgame\ Rules.pdf hpick@cs.hmc.edu:/home/hpick/public_html/
+ssh hpick@cs.hmc.edu "chmod 644 /home/hpick/public_html/Cupgame\ Rules.pdf"
